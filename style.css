@@ -68,7 +68,7 @@ main {
   color: #f9faf8;
   border: none;
   padding: 7px 30px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-top: 15px;
   cursor: pointer;
 }
@@ -121,4 +121,80 @@ main {
   font-size: 18px;
   color: #1f2937;
   text-align: center;
+}
+
+
+.main-tree{
+  background-color: #e5e7eb;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.quote{
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 80px;
+}
+
+.main-tree-quote{
+  max-width: 800px;
+  font-size: 24px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author{
+  text-align: end;
+  padding-right: 50px;
+  font-weight: bold;
+}
+
+
+.main-four{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.singup-container{
+  background-color:#3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width: 800px;
+  padding: 50px 70px;
+  border-radius: 10px;
+}
+.signup-left-top-text{
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.signup-left-bot-text{
+  color: #e5e7eb;
+}
+
+.sign-up-btn-right{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #f9faf8;
+  background-color: transparent;
+  border: 2px solid #f9faf8;
+  padding: 5px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer{
+  height: 100px;
+  color:  #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
